@@ -1,6 +1,24 @@
 ## This project shows how to work with the github actions
 
 
+
+## Table of contents
+* [General info](#general-info)
+* [You will learn](#youwilllearn)
+* [Tech stack](#tech-stack)
+* [Prerequisite](#prerequisite)
+* [Project Setup](#projectsetup)
+
+
+# General Information
+# You will learn
+# Tech Stack
+# Prerequisite
+# Project Setup
+
+
+
+
 # Setup the project 
 1. create the directory or new folder in desired location e.g d:/code/dockerimage
 2. Open the visual studio code in this folder
@@ -16,7 +34,6 @@
  4. create the virual envienment 
  Follow the steps using commad line terminal below : 
 
-  ```bash
    $ python -m venv <env_name>
    $ <env_name>\Scripts\activate
    $ pip install -r requirements.txt
@@ -27,15 +44,12 @@
    named as 
             "dockerimagehub"
 
-   7. Follow the command line steps below: 
-
-         ```bash
-
+   7. Follow the command line steps below:           
            $ git init
            $ git add .
            $ git commit -m "Initial comment"
            $ git branch -M main
-           $ git push -u origin main
+           $git push -u origin main
 
-    ```
-8. This will done with initial project setup on local machin and git hub respository. 
+
+8. This will done with intial project setup in local machin and git hub respository. 
