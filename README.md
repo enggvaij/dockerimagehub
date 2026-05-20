@@ -7,14 +7,14 @@
 * [You will learn](#youwilllearn)
 * [Tech stack](#tech-stack)
 * [Prerequisite](#prerequisite)
-* [Project Setup](#projectsetup)
+* [ Setup the project](#projectsetup)
 
 
 # General Information
 # You will learn
 # Tech Stack
 # Prerequisite
-# Project Setup
+
 
 
 
