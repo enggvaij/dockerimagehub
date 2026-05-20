@@ -27,12 +27,14 @@
    named as 
             "dockerimagehub"
 
-   7. Follow the command line steps below:           
+   7. Follow the command line steps below:
+   ```bash   
            $ git init
            $ git add .
            $ git commit -m "Initial comment"
            $ git branch -M main
            $git push -u origin main
+```
 
 
-8. This will done with intial project setup in local machin and git hub respository. 
+9. This will done with intial project setup in local machin and git hub respository. 
