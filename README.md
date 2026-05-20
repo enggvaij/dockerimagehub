@@ -16,9 +16,11 @@
  4. create the virual envienment 
  Follow the steps using commad line terminal below : 
 
+```bash
    $ python -m venv <env_name>
    $ <env_name>\Scripts\activate
-   $ pip install -r requirements.txt 
+   $ pip install -r requirements.txt
+```
 
    5. Go to Github website and logged ino your github account
    6. Create the new respository 
