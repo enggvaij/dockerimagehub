@@ -33,7 +33,7 @@
            $ git add .
            $ git commit -m "Initial comment"
            $ git branch -M main
-           $git push -u origin main
+           $ git push -u origin main
 ```
 
 
