@@ -16,21 +16,26 @@
  4. create the virual envienment 
  Follow the steps using commad line terminal below : 
 
+  ```bash
    $ python -m venv <env_name>
    $ <env_name>\Scripts\activate
-   $ pip install -r requirements.txt 
+   $ pip install -r requirements.txt
+```
 
    5. Go to Github website and logged ino your github account
    6. Create the new respository 
    named as 
             "dockerimagehub"
 
-   7. Follow the command line steps below:           
+   7. Follow the command line steps below: 
+
+         ```bash
+
            $ git init
            $ git add .
            $ git commit -m "Initial comment"
            $ git branch -M main
-           $git push -u origin main
+           $ git push -u origin main
 
-
-8. This will done with intial project setup in local machin and git hub respository. 
+    ```
+8. This will done with initial project setup on local machin and git hub respository. 
