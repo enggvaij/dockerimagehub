@@ -1,6 +1,24 @@
 ## This project shows how to work with the github actions
 
 
+
+## Table of contents
+* [General info](#general-info)
+* [You will learn](#youwilllearn)
+* [Tech stack](#tech-stack)
+* [Prerequisite](#prerequisite)
+* [Project Setup](#projectsetup)
+
+
+# General Information
+# You will learn
+# Tech Stack
+# Prerequisite
+# Project Setup
+
+
+
+
 # Setup the project 
 1. create the directory or new folder in desired location e.g d:/code/dockerimage
 2. Open the visual studio code in this folder
