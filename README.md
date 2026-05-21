@@ -7,8 +7,8 @@
 * [Learning Objectives](#learningobjectives)
 * [Tech stack](#tech-stack)
 * [Prerequisite](#prerequisite)
-* [Setup the project folder structure](#projectsetup)
-* [Write Flask code in app.py](#writecodefile)
+* [Setup the project](#setuptheproject)
+* [Write codefile](#writecodefile)
 
 
 # General Information
@@ -84,7 +84,7 @@ After completing this unit, you’ll be able to:
     8. This will done with intial project setup in local machin and git hub respository. 
 
 
- # Write Flask code in app.py
+ # Write codefile
 
    Start writing code in app.py.
    Use / import the flask library
