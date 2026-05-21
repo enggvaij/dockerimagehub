@@ -1,21 +1,23 @@
 ## This project shows how to work with the github actions
 
+<a name="top"></a>
 
-
-## Table of contents
+# Table of contents
 * [General Information](#general-info)
 * [Learning Objectives](#learning-objectives)
 * [Tech stack](#tech-stack)
 * [Prerequisite](#prerequisite)
 * [Setup the project](#setup-the-project)
 * [Write codefile](#write-codefile)
+* [Write Test cases](#write-test-cases)
+* [Create docker imagefile](create-docker-imagefile)
 
 
-# General Information
+## General Information
 
   This project hepls you to learn and implement practicle steps to create basic flask application python file , push code fiels ot git hub .Apply github actions for CI/CD pipelines and push deply project on dockerhub.
 
-# Learning Objectives
+## Learning Objectives
 
 
 After completing this unit, you’ll be able to:
@@ -30,14 +32,14 @@ After completing this unit, you’ll be able to:
 
 
 
-# Tech Stack
+## Tech Stack
         1. Git
         2. GitHub
         3. Docker
         4. Flask
         5. Pytest
 
-# Prerequisite
+## Prerequisite
 
 1. One should have account on github website to create the respository
 2. Python must be installed on local machine
@@ -45,7 +47,7 @@ After completing this unit, you’ll be able to:
 
 
 
-# Setup the project 
+## Setup the project 
 
 1. create the directory or new folder in desired location e.g d:/code/dockerimage
 2. Open the visual studio code in this folder
@@ -84,10 +86,57 @@ After completing this unit, you’ll be able to:
     8. This will done with intial project setup in local machin and git hub respository. 
 
 
- # Write codefile
+ ## Write codefile
 
    Start writing code in app.py.
    Use / import the flask library
    and just show the "Hello world" text in localhost port.
 
+-Code syntax
+
+   ```bash
+   from flask import Flask
+
+            app=Flask(__name__)
+            @app.route("/")
+            def home():
+                  return "Hello World!"
+
+            if __name__ == "__main__":
+               app.run(host="0.0.0.0", port=5000)
+   ```
+
+- Run the code 
+Open the terminal and write teh command 
+
+```bash
+$ python app.py
+```
+
+click on the url  (NOTE: In youe case,  url might be differnt address)
+http://127.0.0.1:5000
+
+
+## Write Test cases
+
+- Write my test cases before creating the docker image file.
+- Write teh test cases in test_app.py file.
+-Write the code below: 
+
+
+```bash
+
+from app import app
+
+
+def test_home():
+    response=app.test_client().get("/")
+
+    assert response.status_code==200
+    assert response.data==b"Hello from the test cases: hello wrold!"
+
+```
+
+## Create docker imagefile
   
+[Back to top](#top)
