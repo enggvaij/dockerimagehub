@@ -3,12 +3,12 @@
 
 
 ## Table of contents
-* [General info](#general-info)
-* [Learning Objectives](#learningobjectives)
+* [General Information](#general-info)
+* [Learning Objectives](#learning-objectives)
 * [Tech stack](#tech-stack)
 * [Prerequisite](#prerequisite)
-* [Setup the project](#setuptheproject)
-* [Write codefile](#writecodefile)
+* [Setup the project](#setup-the-project)
+* [Write codefile](#write-codefile)
 
 
 # General Information
