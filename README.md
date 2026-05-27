@@ -10,8 +10,8 @@
 * [Setup the project](#setup-the-project)
 * [Write codefile](#write-codefile)
 * [Write Test cases](#write-test-cases)
-* [Create docker imagefile](create-docker-imagefile)
-* [Write the CI/CD yml](write-the-CI/CD-yml)
+* [Create docker imagefile](#create-docker-imagefile)
+* [Write the CI/CD yml](#write-the-CI/CD-yml)
 
 
 ## General Information
