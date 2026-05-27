@@ -11,11 +11,15 @@
 * [Write codefile](#write-codefile)
 * [Write Test cases](#write-test-cases)
 * [Create docker imagefile](create-docker-imagefile)
+* [Write the CI/CD yml](write-the-CI/CD-yml)
 
 
 ## General Information
 
   This project hepls you to learn and implement practicle steps to create basic flask application python file , push code fiels ot git hub .Apply github actions for CI/CD pipelines and push deply project on dockerhub.
+
+  AIM: Our aim is to create the workflow which will actually help us to build and test the entire application along with that we tried to create a contisous deployment where it wil try to deploy the entire application in the form of Docker Image into the Docker Hub .
+  Any body can use that specific Images after pulling .
 
 ## Learning Objectives
 
@@ -138,5 +142,23 @@ def test_home():
 ```
 
 ## Create docker imagefile
-  
+
+Create the docker image file.
+
+## Write the CI/CD yml
+
+Now how to add yml file to focus on wrokflow i.e. 
+1. Build and Test 
+2. Deploy
+
+- In Build n Test - In the building part , I need to install the libraries 
+- In test phase I need to install pytest.
+- Both needs to get excuted in the Linux container latest
+- Then we go ahead and deply right for deploying we need to configure our Docker username nad Docker password which are my secrte keys which have an option to put in the Docker github itself and then finally we shall go ahead and deploy in the Dockerhub.
+
+- After the deployment finished , we also pull that particular image
+and try to see whether it is working as expected or not.  
+
+- The file is created when the project folder structure is setup initially  and named it as cicd.yml file.
+
 [Back to top](#top)
